@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/green"
+    >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mainact_generate_ayayh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_ayah"
+        android:theme="@style/Base.Theme.MyApplication"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shapes"
+        android:padding="25dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mainact_generate_recit"
+        android:layout_width="match_parent"
+        android:text="@string/generate_recitation"
+android:theme="@style/Base.Theme.MyApplication"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/mainact_generate_ayayh"
+        android:layout_margin="40dp"
+        android:background="@drawable/shapes"
+        android:padding="25dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@id/mainact_generate_ayayh"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/pngegg" />
+
+</RelativeLayout>

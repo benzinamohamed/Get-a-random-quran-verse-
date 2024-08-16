@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ayat</string>
+    <string name="generate_ayah">Get a random ayah</string>
+    <string name="generate_recitation">Get a recitation</string>
+</resources>
