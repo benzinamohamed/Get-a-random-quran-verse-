@@ -1,1 +1,1 @@
-# Get-a-random-quran-verse-
+# Get a random quran verse
